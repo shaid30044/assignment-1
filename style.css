@@ -4,11 +4,14 @@
     font-family: 'Lato', sans-serif;
 }
 
+/* nav style */
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(244, 160, 160);
+    background-color: #e65f7c;
+    color: white;
     padding: 15px;
 }
 
@@ -30,6 +33,54 @@ nav {
 }
 
 .menu:hover {
-    color: rgb(234, 234, 234);
+    color: rgba(39, 39, 39, 0.9);
 }
 
+/* banner style */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+    padding-left: 100px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    width: 700px;
+}
+
+.banner-info {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+    width: 600px;
+}
+
+.banner-btn {
+    padding: 20px 43px;
+    border: 0;
+    border-radius: 8px;
+    background: #e65f7c;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    color: rgba(39, 39, 39, 0.9);
+}
+
+.banner-flower {
+    width: 635px;
+    height: 800px;
+    margin-bottom: -45px;
+}
