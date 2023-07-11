@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(244, 160, 160);
+    padding: 15px;
+}
+
+.shop-name {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.shop-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.menu {
+    padding-left: 30px;
+}
+
+.menu:hover {
+    color: rgb(234, 234, 234);
+}
+
