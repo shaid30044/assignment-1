@@ -20,6 +20,12 @@ nav {
     font-weight: 800;
 }
 
+.floral {
+    color: #e65f7c;
+    background: white;
+    border-radius: 2px;
+}
+
 .shop-menu {
     display: flex;
     justify-content: space-around;
@@ -196,4 +202,59 @@ nav {
 
 .click:hover {
     color: #e65f7c;
+}
+
+/* deal style */
+
+.deal {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0 340px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    gap: 140px;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.off {
+    color: #e65f7c;
+}
+
+.deal-info {
+    display: flex;
+    width: 600px;
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.deal-btn {
+    padding: 20px 50px;
+    border: 0;
+    border-radius: 8px;
+    background: #e65f7c;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.deal-btn:hover {
+    color: rgba(39, 39, 39, 0.9);
+}
+
+.deal-img {
+    width: 260px;
 }
