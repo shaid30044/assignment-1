@@ -42,7 +42,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.1);
     height: 100vh;
     padding-left: 100px;
 }
@@ -83,4 +83,79 @@ nav {
     width: 635px;
     height: 800px;
     margin-bottom: -45px;
+}
+
+/* feature style */
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 120px;
+    padding-bottom: 25px;
+}
+
+.feature-info {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+    gap: 20px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.img-bg-1, .img-bg-2, .img-bg-3 {
+    width: 360px;
+    height: 420px;
+    border: 0 solid black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.card-img {
+    width: 250px;
+}
+
+.img-bg-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.img-bg-2 {
+    background: rgba(5, 151, 160, 0.15);
+    align-items: center;
+}
+
+.img-bg-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.card-info {
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.card-info:hover {
+    color: #e65f7c;
 }
