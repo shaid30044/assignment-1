@@ -142,7 +142,7 @@ nav {
 }
 
 .img-bg-1 {
-    background-color: rgba(167, 33, 98, 0.15);
+    background-color: rgba(167, 33, 98, 0.2);
 }
 
 .img-bg-2 {
@@ -169,12 +169,95 @@ nav {
     color: #ea4367;
 }
 
+/* about style */
+
+.about-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.about-content {
+    margin: 0 200px;
+}
+
+.land,
+.worker,
+.product,
+.branch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.land,
+.product {
+    margin: 40px 300px 40px 0;
+    gap: 50px;
+    padding: 0 50px 0 0;
+}
+
+.worker,
+.branch {
+    margin: 0 0 0 300px;
+    gap: 50px;
+    padding: 0 0 0 50px;
+}
+
+.land {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.worker {
+    background-color: rgba(167, 33, 98, 0.2);    justify-content: right;
+}
+
+.product {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.branch {
+    background-color: rgb(215, 203, 255);
+    justify-content: right;
+}
+
+.img-odd {
+    width: 320px;
+    height: 180px;
+    border-radius: 10px 0 0 10px;
+    background-size: cover;
+}
+
+.img-even {
+    width: 320px;
+    height: 180px;
+    border-radius: 0 10px 10px 0;
+    background-size: cover;
+}
+
+.title {
+    color: #272727;
+    padding-bottom: 16px;
+}
+
+.info {
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* delivery style */
 
 .delivery {
     height: 240px;
     padding: 0 100px;
     margin: 0 200px;
+    margin-top: 80px;
     margin-bottom: 140px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
